@@ -30,29 +30,30 @@ const App: React.FC = () => {
   );
 }
 
+
 export default App;
 
 
 
-// let name:string;
-// let age:number | string;
-// let isStudent:boolean;
-// let hobbies:string[];
-// let role:[number,string];
-// let personName: unknown;
+// // // // let name:string;
+// // // // let age:number | string;
+// // // // let isStudent:boolean;
+// // // // let hobbies:string[];
+// // // // let role:[number,string];
+// // // // let personName: unknown;
 
 
-// type Person = {
-//   name:string;
-//   age?:number;
-// }
+// // // // type Person = {
+// // // //   name:string;
+// // // //   age?:number;
+// // // // }
 
-// let person :Person = {
-//   name:'Max',
-//   age:30,
-// }
+// // // // let person :Person = {
+// // // //   name:'Max',
+// // // //   age:30,
+// // // // }
 
-// let lotsOfPeople:Person[];
+// // // // let lotsOfPeople:Person[];
 
 // interface Person {
 //   name:string;
