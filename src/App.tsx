@@ -58,7 +58,9 @@ const App: React.FC = () => {
     <DragDropContext onDragEnd={ondragEnd} >
       <div className="App">
         <span className='heading'>Taskify</span>
-        <InputFeild todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
+        <InputFeild inputValue={todo} setInputValue={setTodo} handleAdd={handleAdd} setTodo={function (value: React.SetStateAction<string>): void {
+          throw new Error('Function not implemented.');
+        } } />
         <TodoList
           todos={todos}
           setTodos={setTodos}
